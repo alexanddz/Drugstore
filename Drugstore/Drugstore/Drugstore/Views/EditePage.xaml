@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="CadetBlue"
+             Title="Страница редактирования"
+             x:Class="Drugstore.Views.EditePage"
+             xmlns:local="clr-namespace:Drugstore"
+             x:DataType="local:Item">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Название товара:"  FontSize="Title" TextColor="AliceBlue"/>
+                <Label Text="{Binding Name}"  FontSize="Title" TextColor="AliceBlue"/>
+            </StackLayout>
+            <Label Text="Описание:"
+                FontSize="Title"
+                HorizontalOptions="Start" 
+                TextColor="AliceBlue"/>
+            <Frame>
+                <Editor 
+                     Placeholder="Ввод"
+                     HeightRequest="350"
+                     FontSize="20"
+                     Text="{Binding Description}"/>
+            </Frame>
+            <StackLayout Orientation ="Horizontal">
+                <Label Text="Цена($):"
+                FontSize="Title"
+                VerticalOptions="Center" 
+                TextColor="AliceBlue"/>
+                <Entry 
+                    x:Name="entryPrice" 
+                    HorizontalOptions="FillAndExpand" 
+                    FontSize="20" 
+                    Keyboard="Numeric" 
+                    Text="{Binding Price}" 
+                    TextChanged="ToChangePrice"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Frame BackgroundColor="WhiteSmoke" CornerRadius="100">
+                    <Button 
+                    Text="Отмена" 
+                    HeightRequest="30" 
+                    TextColor="OrangeRed" 
+                    BackgroundColor="WhiteSmoke"
+                    FontAttributes="Bold"
+                    Clicked="cancel"/>
+                </Frame>
+                <Frame BackgroundColor="WhiteSmoke" CornerRadius="100">
+                    <Button 
+                    Text="Сохранить" 
+                    HeightRequest="50" 
+                    TextColor="OrangeRed" 
+                    BackgroundColor="WhiteSmoke"
+                    FontAttributes="Bold"
+                    Clicked="SaveAndPopRoot"/>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    

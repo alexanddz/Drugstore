@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drugstore.Android", "Drugstore\Drugstore.Android\Drugstore.Android.csproj", "{196A4AC5-076B-4FD2-A175-CEA5484D978C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drugstore", "Drugstore\Drugstore\Drugstore.csproj", "{A28DA865-93E5-4275-899C-EECB5EDDF884}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{196A4AC5-076B-4FD2-A175-CEA5484D978C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196A4AC5-076B-4FD2-A175-CEA5484D978C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196A4AC5-076B-4FD2-A175-CEA5484D978C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{196A4AC5-076B-4FD2-A175-CEA5484D978C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196A4AC5-076B-4FD2-A175-CEA5484D978C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196A4AC5-076B-4FD2-A175-CEA5484D978C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A28DA865-93E5-4275-899C-EECB5EDDF884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28DA865-93E5-4275-899C-EECB5EDDF884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28DA865-93E5-4275-899C-EECB5EDDF884}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A28DA865-93E5-4275-899C-EECB5EDDF884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28DA865-93E5-4275-899C-EECB5EDDF884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28DA865-93E5-4275-899C-EECB5EDDF884}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F3C6623-2996-4F18-B691-14AE7BFBDF3F}
+	EndGlobalSection
+EndGlobal

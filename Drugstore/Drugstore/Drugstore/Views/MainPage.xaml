@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Drugstore.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="BackgroundColor" Value="#FFB0C4DE"/>
+            </Style>
+            <Style x:Key="frameStyle" TargetType="Frame">
+                <Setter Property="Background" Value="Azure"/>
+                <Setter Property="CornerRadius" Value="15"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout BackgroundColor="CadetBlue">
+        <Label Text="Учёт лекарств в аптеке"  
+               FontSize="33"  
+               HorizontalOptions="Center" Margin="0,80,0,0" TextColor="AntiqueWhite"></Label>
+        <BoxView Margin="28,0" HeightRequest="2" HorizontalOptions="Fill" Color="AliceBlue"></BoxView>
+        <StackLayout  Padding="20">
+            <Frame Style="{StaticResource frameStyle}">
+                <Button Text="Просмотр товаров"
+                        Style="{StaticResource buttonStyle}" 
+                        Clicked="JumpToSchow"/>
+            </Frame>
+            <Frame Style="{StaticResource frameStyle}">
+                <Button 
+                    Text="Добавление товаров" 
+                    Style="{StaticResource buttonStyle}"
+                    Clicked="JumpToAdd"/>
+
+            </Frame>
+            <Frame Style="{StaticResource frameStyle}">
+                <Button Text="Поиск товаров"
+                        Style="{StaticResource buttonStyle}"
+                        Clicked="JumpToSearch"/>
+            </Frame>
+            <Frame Style="{StaticResource frameStyle}">
+                <Button Text="Выход из приложения"
+                        Style="{StaticResource buttonStyle}"
+                        Clicked="Exit"/>
+            </Frame>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

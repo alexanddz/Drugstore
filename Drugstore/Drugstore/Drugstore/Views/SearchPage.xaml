@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="CadetBlue"
+             xmlns:local="clr-namespace:Drugstore"
+             x:DataType="local:ListItems"
+             x:Class="Drugstore.Views.SearchPage">
+    <StackLayout Padding="6">
+        <SearchBar Placeholder="Найти лекарство" TextColor="AliceBlue" PlaceholderColor="AliceBlue" FontSize="Large" TextChanged="SearchItem"></SearchBar>
+        <ListView x:Name="listSearch" ItemsSource="{Binding listItems}" HasUnevenRows="True"  SeparatorColor="Red">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="local:Item">
+                    <ViewCell>
+                        <Frame BorderColor="Wheat"  BackgroundColor="WhiteSmoke">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Path=Name}" FontSize="30" FontAttributes="Bold"></Label>
+                                    <Image 
+                                        Source="edit.png" 
+                                        HorizontalOptions="EndAndExpand"
+                                        HeightRequest="30"
+                                        >
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="EditItemClicked" CommandParameter="{Binding .}"/>
+                                        </Image.GestureRecognizers>
+                                    </Image>
+                                </StackLayout>
+                                <Frame CornerRadius="10">
+                                    <StackLayout>
+                                     <Label Text="Описание товара" HorizontalOptions="Center" FontSize="Medium"></Label>
+                                     <Label Text="{Binding Path=Description}" FontSize="Medium" FontAttributes="Italic"></Label>
+                                    </StackLayout>
+                                </Frame>
+
+                                <Frame CornerRadius="10" HorizontalOptions="Start">
+                                    <StackLayout Orientation ="Horizontal">
+                                        <Label Text="Цена:" FontSize="Large"></Label>
+                                        <Label Text="{Binding Path=Price}" FontSize="Large" FontAttributes="Bold"></Label>
+                                        <Label Text="$" FontAttributes="Bold" FontSize="Large"></Label>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
+    

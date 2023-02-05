@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Drugstore"
+             x:DataType="local:ListItems"
+             BackgroundColor="CadetBlue"
+             x:Class="Drugstore.Views.SchowPage">
+    <StackLayout Padding="10">
+        <Label x:Name="labelHeader" Text="" TextColor="SeaShell" HorizontalOptions="Center" FontSize="Large"></Label>
+        <ListView x:Name="listSearch" ItemsSource="{Binding listItems}" HasUnevenRows="True"  SeparatorColor="Red">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="local:Item">
+                    <ViewCell>
+                        <Frame BorderColor="Wheat"  BackgroundColor="WhiteSmoke">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Path=Name}" FontSize="30" 
+                                           FontAttributes="Bold" HorizontalOptions="Center"></Label>
+                                    <Image 
+                                        Source="delete.png" 
+                                        HorizontalOptions="EndAndExpand">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="ImageButtonRemove" CommandParameter="{Binding .}"/>
+                                        </Image.GestureRecognizers>
+                                    </Image>
+                                </StackLayout>
+                                <Frame CornerRadius="10">
+                                    <StackLayout>
+                                        <Label Text="Описание товара" HorizontalOptions="Center" FontSize="Medium"></Label>
+                                        <Label Text="{Binding Path=Description}" FontSize="Medium" FontAttributes="Italic"></Label>
+                                    </StackLayout>
+                                </Frame>
+                                <Frame CornerRadius="10" HorizontalOptions="Start">
+                                    <StackLayout Orientation ="Horizontal">
+                                        <Label Text="Цена:" FontSize="Large"></Label>
+                                        <Label Text="{Binding Path=Price}" FontSize="Large" FontAttributes="Bold"></Label>
+                                        <Label Text="$" FontAttributes="Bold" FontSize="Large"></Label>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
+    
+    

@@ -1,0 +1,35 @@
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\bin\Debug\netstandard2.0\Drugstore.deps.json
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\bin\Debug\netstandard2.0\Drugstore.dll
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\bin\Debug\netstandard2.0\ref\Drugstore.dll
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\bin\Debug\netstandard2.0\Drugstore.pdb
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.AssemblyInfoInputs.cache
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.AssemblyInfo.cs
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.csproj.CoreCompileInputs.cache
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.dll
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\ref\Drugstore.dll
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.pdb
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.csproj.AssemblyReference.cache
+E:\Меню аптеки\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+E:\menuStore\Drugstore\Drugstore\Drugstore\bin\Debug\netstandard2.0\Drugstore.deps.json
+E:\menuStore\Drugstore\Drugstore\Drugstore\bin\Debug\netstandard2.0\Drugstore.dll
+E:\menuStore\Drugstore\Drugstore\Drugstore\bin\Debug\netstandard2.0\ref\Drugstore.dll
+E:\menuStore\Drugstore\Drugstore\Drugstore\bin\Debug\netstandard2.0\Drugstore.pdb
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.csproj.AssemblyReference.cache
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.GeneratedMSBuildEditorConfig.editorconfig
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.AssemblyInfoInputs.cache
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.AssemblyInfo.cs
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.csproj.CoreCompileInputs.cache
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\XamlC.stamp
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.dll
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\ref\Drugstore.dll
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Drugstore.pdb
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Views\AddPage.xaml.g.cs
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Views\EditePage.xaml.g.cs
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Views\SchowPage.xaml.g.cs
+E:\menuStore\Drugstore\Drugstore\Drugstore\obj\Debug\netstandard2.0\Views\SearchPage.xaml.g.cs

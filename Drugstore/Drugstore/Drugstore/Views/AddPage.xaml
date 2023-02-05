@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Drugstore.Views" 
+             x:Class="Drugstore.Views.AddItems"
+             x:DataType="local:AddItems"
+             Background="CadetBlue"
+             Title="Добавить товар">
+    <StackLayout Margin="10" Padding="10" BackgroundColor="AliceBlue">
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Введите название: " FontSize="Large" VerticalOptions="Center" FontAttributes="Bold" />
+            <StackLayout HorizontalOptions="FillAndExpand" Spacing="0">
+                <Entry
+                x:Name ="entry1" 
+                Placeholder="Ввод товара" 
+                Unfocused="entry1_UnFocused"  
+                />
+            <Ellipse x:Name="entry1Line" HeightRequest="3" BackgroundColor="Transparent"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Введите цену($): " FontSize="Large" VerticalOptions="Center"/>
+            <StackLayout HorizontalOptions="FillAndExpand" Spacing="1">
+            <Entry 
+                x:Name ="entry2" 
+                Placeholder="Ввод цены"  
+                Keyboard="Numeric"
+                Unfocused="entry2_UnFocused"/>
+            <Ellipse x:Name="entry2Line" HeightRequest="3" BackgroundColor="Transparent"/>
+            </StackLayout>
+         </StackLayout>
+        <Label Text="Введите описание" FontSize="Large" HorizontalOptions="Center" FontAttributes="Italic"/>
+        <Rectangle BackgroundColor="AntiqueWhite"/>
+            <StackLayout HorizontalOptions="FillAndExpand" Spacing="0">
+            <Editor 
+                x:Name ="entry3" 
+                Placeholder="Ввод Описания" 
+                HorizontalOptions="FillAndExpand" 
+                HeightRequest="250"
+                Unfocused="editor3_UnFocused"/>
+            <Ellipse x:Name="entry3Line" HeightRequest="3"  BackgroundColor="Transparent"/>
+            </StackLayout>
+        <Button Text="Сохранить" TextColor="Moccasin" Command="{Binding command}" VerticalOptions="CenterAndExpand" BackgroundColor="Gray"/>
+    </StackLayout>
+</ContentPage>
+    
+    
